@@ -21,8 +21,8 @@ class BlogViewSet(viewsets.ModelViewSet):
         "created_at",
     ]
 
-    # def get_queryset(self):
-    #     return set.queryset.filter(name="sam")
+    def get_queryset(self):
+        return set.queryset.filter(name="sam")
     
     '''
     The error in the code was intentional, as we have filtered the queryset 
