@@ -9,6 +9,7 @@ djangorestframework = "*"
 python-decouple = "*"
 django-cors-headers = "*"
 drf-spectacular = "*"
+sentry-sdk = "*"
 
 [dev-packages]
 
